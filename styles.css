@@ -1,0 +1,31 @@
+body{
+    background-color: orange;
+    margin-top: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: orange;
+    background-color: black;
+}
+h2{
+    align-items: center;
+}
+.buttonlist{
+    max-width: fit-content;
+    display: inline-block;
+}
+.grid{
+    position: relative;
+    margin: 0 auto;
+    justify-self: center;
+}
+tr,td{
+    border:1px;
+    border-style: solid;
+}
+td{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grid Game!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Menu Buttons -->
+     <h1>GRID-GAME</h1>
+     <h2>
+        <li class="buttonlist">
+            <div><button onclick="addR()">Add Row</button></div>
+            <div><button onclick="addC()">Add Col</button></div>
+            <div><button onclick="removeR()">Remove Row</button></div>
+            <div><button onclick="removeC()">Remove Col</button></div>
+            <div><button onclick="fillU()">Fill All Uncolored</button></div>
+            <div><button onclick="fillAll()">Fill All</button></div>
+            <div><button onclick="clearAll()">Clear</button></div>
+            <div>
+                <select onchange="selectColor()" id="selectedColorId">
+                    <option value="SELECT">SELECT</option>
+                    <option value="Red">Red</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Green">Green</option>
+                    <option value="Yellow">Yellow</option>
+                </select>
+            </div>
+         </li>
+        <!-- Grid Table -->
+        <table id="grid" class="grid">
+            <tr id = 1>
+                <td>
+
+                </td>
+            </tr>
+        </table>
+     </h2>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
